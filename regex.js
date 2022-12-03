@@ -21,7 +21,7 @@ let lettre_maj = /^[A-Z]*$/;
 let lettre_min_maj = /^[a-zA-Z]*$/;
 
 // Alphanumériques
-let Alphanumériques = /^[\da-zA-Z]*$/;
+let alphanumériques = /^[\da-zA-Z]*$/;
 
 // Nom d'utilisateur alphanumérique de 4 à 8 caractéres avec '_'
 let username = /^([a-zA-Z\d_]){4,8}$/;
